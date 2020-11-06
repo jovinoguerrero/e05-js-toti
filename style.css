@@ -1,0 +1,19 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #f1f1f1f1;
+}
+h1 {
+    color: deepskyblue;
+}
+input, button, textarea {
+    margin: 21px 0;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 200px;
+}

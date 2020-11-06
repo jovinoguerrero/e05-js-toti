@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 05 - JS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Consultor de CEP</h1>
+    <p id="descrição">O seguinte serviço permite obter informação do CEP consultado.</p>
+    <p>Validação do CEP: Ao consultar um CEP de formato inválido, por exemplo diferente de 8 dígitos ou com caracteres não numéricos</p>
+
+    <form id='form' class='form'>
+        <label>Insire um CEP
+            <input type="number" id='inputCEP' required>
+        </label>
+        <button type="submit" disabled>Consultar CEP</button>
+    </form>
+
+    <div id="divInfo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
